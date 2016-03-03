@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# 加密密钥
+
+# secret key
 SECRET_KEY="asdfklasjdfkdsjkfjjiozji"
 #server add
 SERVER='127.0.0.1'
