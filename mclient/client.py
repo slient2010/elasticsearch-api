@@ -27,8 +27,12 @@ except Exception, e:
     cResult = False
     print 'Connect to rpyc server error:' + str(e)
     sys.exit()
-# 对请求数据串使用m_encode方法加密
 
+# 对请求数据串使用m_encode方法加密
+# params
+# 'action', action type
+# 'loglevel', 'info, warn, error' are available
+# 'logtime', recent time log.
 put_string="action=search&loglevel=INFO&logtime=30s"
 
 put_string = m_encode(put_string, SECRET_KEY)
