@@ -40,8 +40,10 @@ if cResult:
     # 调用rpyc Server的Runcommands方法实现功能模块的任务下发，返回结果使用m_decode进行解密
     try:
         cResult =eval(m_decode(conn.root.Runcommands(put_string), SECRET_KEY))
-        # it should be dict
-        print type(cResult)
+        if cResult:
+            print eval(cResult)
+        else:
+            print "no data"
     except Exception,e:
         print "秘钥异常，或是%s" % e
     conn.close()
