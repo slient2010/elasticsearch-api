@@ -2,8 +2,10 @@
 
 ##Make sure rpyc installed before use it.
 
-This tool writen by python.
+This tool is written by python.
+
 1.Use this tool can get the applications log in realtime. 
+
 2.All transfer data are encrypted.
 
 ## Useage 
