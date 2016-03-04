@@ -17,7 +17,8 @@ This tool is written by python.
    > python mserver.py start
 
 tips: 
-    check the server status, use 'python mserver.py status'
+    check the server status, use 'python mserver.py status'.
+    
     stop the server, use ' python mserver.py stop'
 
 3) Running the client.
